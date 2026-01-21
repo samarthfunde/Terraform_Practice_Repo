@@ -31,7 +31,7 @@ resource "aws_security_group" "mysg" {
 
 
 resource "aws_instance" "my_ec2" {
-  ami           = "ami-02b8269d5e85954ef"
+  ami           = "ami-XXXXXXXX"
   instance_type = "t2.micro"
   key_name      = "key-remote"
 
@@ -68,3 +68,4 @@ resource "aws_instance" "my_ec2" {
     EOT
   }
   }
+
