@@ -7,7 +7,7 @@ variable "vpc_cidr_block" {
 }
 
 variable "myami" {
-  default = "ami-0ced6a024bb18ff2e"
+  default = "ami-XXXXXXXXXXXXX"
 }
 
 variable "inst_type" {
@@ -16,4 +16,5 @@ variable "inst_type" {
 
 variable "key-name" {
   default = "public"
+
 }
