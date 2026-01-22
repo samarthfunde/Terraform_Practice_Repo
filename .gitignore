@@ -1,0 +1,12 @@
+# Terraform local files
+**/.terraform/*
+*.tfstate
+*.tfstate.backup
+*.lock.hcl
+
+# # Terraform variables (optional if contains secrets)
+# *.tfvars
+
+# OS / Editor
+.vscode/
+.DS_Store
